@@ -1,0 +1,6 @@
+/Users/netodev/Documents/Netodev/CursosPracticas/Games/Godot 2D Game/.mono/temp/bin/Tools/Godot 2D Game.dll
+/Users/netodev/Documents/Netodev/CursosPracticas/Games/Godot 2D Game/.mono/temp/bin/Tools/Godot 2D Game.pdb
+/Users/netodev/Documents/Netodev/CursosPracticas/Games/Godot 2D Game/.mono/temp/obj/Tools/Godot 2D Game.csprojAssemblyReference.cache
+/Users/netodev/Documents/Netodev/CursosPracticas/Games/Godot 2D Game/.mono/temp/obj/Tools/Godot 2D Game.csproj.CoreCompileInputs.cache
+/Users/netodev/Documents/Netodev/CursosPracticas/Games/Godot 2D Game/.mono/temp/obj/Tools/Godot 2D Game.dll
+/Users/netodev/Documents/Netodev/CursosPracticas/Games/Godot 2D Game/.mono/temp/obj/Tools/Godot 2D Game.pdb

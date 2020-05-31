@@ -1,6 +1,7 @@
 from flask import Flask, render_template, url_for, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+import sys
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
@@ -31,6 +32,8 @@ def index():
         tasks = Todo.query.order_by(Todo.date_created).all()
         return render_template('index.html', tasks=tasks)
 
+
+
 @app.route('/delete/<int:id>')
 def delete(id):
     task_to_delete = Todo.query.get_or_404(id)
@@ -58,4 +61,8 @@ def update(id):
         return render_template('update.html', task=task)
 
 if __name__ == "__main__":
+    start_db = sys.argv[1] if len(sys.argv) > 1 else ""
+    db.create_all() if start_db == "start_db" else None
+    print("==== Database Create ====") if start_db == "start_db" else None
+
     app.run(debug=True)
